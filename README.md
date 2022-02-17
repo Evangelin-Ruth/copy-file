@@ -29,3 +29,4 @@ with open('text.txt') as fp:
 
 ## RESULT:
 Thus the program is written to copy the contents from one file to another file.
+
