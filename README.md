@@ -18,12 +18,17 @@ The content in the original file will be copied in the new file.
 ### Step 6: 
 End the program.
 ## PROGRAM:
-with open('text.txt') as fp:
-    with open('copy.txt','w') as fp1:
-        cpy=fp.read()
-        fp1.write(cpy)
+To write a program for copying the contents from one file to another file.
+Developed by: Evangelin.S
+RegisterNumber: 212221230025
+
+with open("File1.txt","r") as fp:
+    x = fp.read()
+with open("File2.txt","w") as fp1:
+    fp1.write(x)
 
 ### OUTPUT:
+![image](https://user-images.githubusercontent.com/94219798/154701474-b85be109-13ac-4a28-a0eb-b62e0498310a.png)
 
 
 
